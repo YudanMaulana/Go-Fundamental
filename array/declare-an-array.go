@@ -10,7 +10,7 @@ func main() {
 	// dengan Short Variable :=
 	arr2 := [5]int{4, 5, 6, 7, 8}
 	// Kita bisa tidak mendeklarasikan bilangan dengan "..."
-	arr3 := [...]int{4, 5, 6, 7, 8}
+	arr3 := [...]int{4, 5}
 
 	fmt.Println(arr1)
 	fmt.Println(arr2)
